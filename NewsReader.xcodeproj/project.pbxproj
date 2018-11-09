@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		6A61B6A22195554F00A94556 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61B6A12195554F00A94556 /* AppDelegate.swift */; };
-		6A61B6A42195555000A94556 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61B6A32195555000A94556 /* ViewController.swift */; };
 		6A61B6A72195555000A94556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A61B6A52195555000A94556 /* Main.storyboard */; };
 		6A61B6A92195555000A94556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A61B6A82195555000A94556 /* Assets.xcassets */; };
 		6A61B6AC2195555000A94556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A61B6AA2195555000A94556 /* LaunchScreen.storyboard */; };
+		6A61B6B4219555E600A94556 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61B6B3219555E600A94556 /* ListViewController.swift */; };
+		6A61B6B621956B0700A94556 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61B6B521956B0700A94556 /* Item.swift */; };
+		6A61B6B8219572A600A94556 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A61B6B7219572A600A94556 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6A61B69E2195554F00A94556 /* NewsReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NewsReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A61B6A12195554F00A94556 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6A61B6A32195555000A94556 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6A61B6A62195555000A94556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6A61B6A82195555000A94556 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A61B6AB2195555000A94556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A61B6AD2195555000A94556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A61B6B3219555E600A94556 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		6A61B6B521956B0700A94556 /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		6A61B6B7219572A600A94556 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +59,10 @@
 			isa = PBXGroup;
 			children = (
 				6A61B6A12195554F00A94556 /* AppDelegate.swift */,
-				6A61B6A32195555000A94556 /* ViewController.swift */,
 				6A61B6A52195555000A94556 /* Main.storyboard */,
+				6A61B6B521956B0700A94556 /* Item.swift */,
+				6A61B6B3219555E600A94556 /* ListViewController.swift */,
+				6A61B6B7219572A600A94556 /* DetailViewController.swift */,
 				6A61B6A82195555000A94556 /* Assets.xcassets */,
 				6A61B6AA2195555000A94556 /* LaunchScreen.storyboard */,
 				6A61B6AD2195555000A94556 /* Info.plist */,
@@ -137,8 +143,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6A61B6A42195555000A94556 /* ViewController.swift in Sources */,
+				6A61B6B4219555E600A94556 /* ListViewController.swift in Sources */,
+				6A61B6B621956B0700A94556 /* Item.swift in Sources */,
 				6A61B6A22195554F00A94556 /* AppDelegate.swift in Sources */,
+				6A61B6B8219572A600A94556 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
